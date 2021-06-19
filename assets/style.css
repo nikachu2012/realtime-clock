@@ -47,6 +47,10 @@ body{
 
 }
 
+.left_contents{
+  margin-top: 40%;
+}
+
 /* ここからアナログ時計のやーつー */
 
 #analog{
