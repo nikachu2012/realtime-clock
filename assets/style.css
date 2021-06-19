@@ -47,9 +47,7 @@ body{
 
 }
 
-.left_contents{
-  margin-top: 40%;
-}
+
 
 /* ここからアナログ時計のやーつー */
 
@@ -135,4 +133,9 @@ body{
             height:17px;
             width:17px;
             transform: translate(-9px,-9px);
+}
+/* ここまでアナログ時計 */
+
+.left_contents{
+  margin-top: 40%;
 }
