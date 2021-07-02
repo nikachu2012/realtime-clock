@@ -1,4 +1,6 @@
 # realtime-clock
+これはアーカイブです。最新版はgh-pagesブランチをご覧ください。
+This is an archive. Please see the gh-pages branch for the latest version.
 
 ## Japanese-version
 これは時計です。アナログとデジタルに対応していて、同時に見ることができます。
