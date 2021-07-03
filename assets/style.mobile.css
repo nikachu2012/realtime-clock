@@ -5,6 +5,11 @@ body{
   color: #FFFFFF;
   font-family: 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
+
+a:link, a:visited, a:hover, a:active {
+  color: #FFFFFF;
+}
+
 .split{
     display: table;
     width: 100%;
