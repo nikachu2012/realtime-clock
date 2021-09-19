@@ -49,5 +49,19 @@
 
   <script src="assets/hyouji.js" charset="utf-8"></script>
   <script src="assets/analogue.js" charset="utf-8"></script>
+  <script>
+    $(function() {
+    $('.hamburger').click(function() {
+        $(this).toggleClass('active');
+ 
+        if ($(this).hasClass('active')) {
+            $('.globalMenuSp').addClass('active');
+        } else {
+            $('.globalMenuSp').removeClass('active');
+        }
+    });
+});
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>
