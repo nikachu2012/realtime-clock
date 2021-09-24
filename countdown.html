@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime-clock Digital</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+        <div class="box">
+            <p id="RealtimeCountdownArea">※ここにカウントダウンが表示されます。</p>
+        </div>
+
+    
+    <div class="left-bottom">
+        <p>
+            カウントダウン時間指定<br>
+            <input type="text" id="userYear"  maxlength="4" size="4" value="2021">年
+            <input type="text" id="userMonth" maxlength="2" size="2" value="09">月
+            <input type="text" id="userDate"  maxlength="2" size="2" value="23">日
+            <input type="text" id="userHour"  maxlength="2" size="2" value="18">時
+            <input type="text" id="userMin"   maxlength="2" size="2" value="30">分
+            <input type="text" id="userSec"   maxlength="2" size="2" value="00">秒<br>
+
+         </p>
+    </div>
+
+
+    <div class="right-bottom">
+        <a class="VersionLink" href="https://github.com/nikachu2012/realtime-clock/tree/v2.0.0">Realtime-clock v2.0.0</a>&nbsp;/&nbsp;<a href="index.html">メニュー</a><br>
+        Copyright &copy; 2021 Nikachu All rights reserved.
+      </div>
+
+    <script src="assets/countdown.js"></script>
+</body>
+</html>

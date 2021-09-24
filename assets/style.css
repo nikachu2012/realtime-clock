@@ -6,6 +6,7 @@ body{
   font-family: 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
+
 a:link, a:visited, a:hover, a:active {
   color: #FFFFFF;
 }
@@ -39,18 +40,15 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .sec{
-  font-size: 50pt;
+  font-size: 4em;
 }
+
 
 .cloock{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50%;
-}
-
-.daate{
-
 }
 
 
@@ -146,11 +144,30 @@ a:link, a:visited, a:hover, a:active {
   margin-top: 40%;
 }
 
-.upper{
+.right-bottom{
   position:fixed;
   right:30px;
   bottom:30px;
   transition:1s;
   opacity:0.7;
   text-align: right;
+  color: white;
+}
+
+.left-bottom{
+  position:fixed;
+  left:30px;
+  bottom:30px;
+  transition:1s;
+  text-align: left;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
